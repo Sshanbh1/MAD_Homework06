@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HW06</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="sid">Student Id</string>
+    <string name="depart">Department :</string>
+    <string name="cs">CS</string>
+    <string name="sis">SIS</string>
+    <string name="bio">BIO</string>
+    <string name="oth">Other</string>
+    <string name="save">Save</string>
+    <string name="name">Name :</string>
+    <string name="studentid">Sudent ID :</string>
+    <string name="dep">Department :</string>
+    <string name="edit">Edit</string>
+</resources>
