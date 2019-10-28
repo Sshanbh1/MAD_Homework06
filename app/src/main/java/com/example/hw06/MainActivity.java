@@ -1,15 +1,20 @@
 package com.example.hw06;
 
-import androidx.appcompat.app.AppCompatActivity;
+/*
+*
+* Name : Sameer Shanbhag
+* Name : Ravina Gaikawad
+* Group1 5
+* MAD Homework 06
+* Topic: Fragments | SharedPreferences
+*
+*/
+
 
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.Bundle;
-import android.util.Log;
 
-import com.google.gson.Gson;
-
-import java.sql.Savepoint;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity implements  MyProfileFragment.OnFragmentInteractionListener, SelectAvatar.onSelectAvatar, DisplayMyProfile.onDisplayProfile {
 
