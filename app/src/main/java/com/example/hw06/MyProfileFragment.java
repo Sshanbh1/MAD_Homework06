@@ -68,7 +68,7 @@ public class MyProfileFragment extends Fragment {
         et_lastname = view.findViewById(R.id.et_lastname);
         et_studentid = view.findViewById(R.id.et_studentid);
 
-        ImageView iv_selectAvatar = view.findViewById(R.id.iv_selectAvatar);
+        final ImageView iv_selectAvatar = view.findViewById(R.id.iv_selectAvatar);
         final RadioGroup rg_selectstream = view.findViewById(R.id.rg_selectstream);
         Button bt_save = view.findViewById(R.id.bt_save);
 
@@ -149,7 +149,7 @@ public class MyProfileFragment extends Fragment {
                 } else if(profileDetails.getStudentID() == null){
                     et_studentid.setError("Enter a valid Student ID");
                 } else if (profileDetails.getImageDrawable() == null){
-                    et_studentid.setError("Please Select an Avatar");
+                    Toast.makeText(getActivity(), "Please Select an Avatar", Toast.LENGTH_SHORT).show();
                 } else if(profileDetails.getStudentID().length() > 9 || profileDetails.getStudentID().length() <= 0){
                     et_studentid.setError("StudentID should be 1-9 Digits Long");
                 } else if(profileDetails.getStudentID() != null && profileDetails.getStudentID().startsWith("-")){
